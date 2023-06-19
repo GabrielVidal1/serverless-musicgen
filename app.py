@@ -8,7 +8,7 @@ import base64
 def gen(model: MusicGen, prompt:str, samples=1, duration=8) :
     model.set_generation_params(duration=duration) 
 
-    wav = model.generate([prompt] ** samples)  # generates 3 samples.
+    wav = model.generate([prompt] * samples)  # generates 3 samples.
 
     results = []
     for idx, one_wav in enumerate(wav):
