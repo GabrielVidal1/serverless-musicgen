@@ -31,7 +31,7 @@ def gen(model: MusicGen, prompt: str, samples=1, duration=8):
                 results.append(
                     {
                         "prompt": prompt,
-                        "audio": encoded_string,
+                        "audio": str(encoded_string),
                     }
                 )
     return results
