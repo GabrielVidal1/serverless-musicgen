@@ -10,7 +10,7 @@
         "outputs":[
             {
                 "prompt": "drum and bass beat with intense percussions",
-                "audio": "<wav file in base64>"
+                "audio": "<mp3 file in base64>"
             }
         ]
     },
