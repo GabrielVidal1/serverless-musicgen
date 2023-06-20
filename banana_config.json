@@ -1,0 +1,18 @@
+{
+    "name": "MusicGen",
+    "category": "",
+    "example_input": {
+        "prompt": "drum and bass beat with intense percussions",
+        "duration": 8,
+        "samples": 1
+    },
+    "example_output": {
+        "outputs":[
+            {
+                "prompt": "drum and bass beat with intense percussions",
+                "audio": "<wav file in base64>"
+            }
+        ]
+    },
+    "version": "1"
+}
